@@ -6,3 +6,222 @@
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
 /* ============ desktop view .end// ============ */
+
+
+section.top {
+    background-color: #ab1e32;
+	padding: 10px 0;
+}
+section.top p {
+    color: #fff;
+    margin: 0;
+}
+section.top a {
+    color: #fff;
+	text-decoration: none;
+}
+a.navbar-brand {
+    font-size: 35px;
+	font-weight: 900;
+}
+.box_area .box_home {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 7%);
+    border-radius: 4px;
+	min-height: 221px;
+}
+section.box_area {
+    background-color: #f9f9f9;
+	text-align: center;
+	padding: 5%;
+}
+section.box_area h3 {
+    padding-bottom: 2%;
+	font-size: 40px;
+	font-weight: 900;
+}
+section.box_area p {
+    padding-bottom: 4%;
+}
+section.bg_image_area {
+    background-image: url('http://localhost/shop/wp-content/themes/Mytheme/images/second.jpg');
+	background-attachment: fixed;
+    padding: 4%;
+}
+section.bg_image_area h4 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.products_home .card .image_top {
+    text-align: center;
+    height: 235px;
+}
+section.products_home {
+    padding: 4%;
+	background-color: #f9f9f9;
+}
+section.products_home h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 4%;
+	font-weight: 900;
+}
+section.products_home .card {
+    margin-bottom: 30px;
+	text-align: center;
+}
+section.products_home .card .card-body a.btn.btn-primary {
+    width: 70%;
+    background-color: #ab1e32;
+    border-color: #ab1e32;
+}
+footer {
+    background: #ab1e32;
+    padding-top: 4%;
+}
+footer h3 {
+    color: #fff;
+    font-weight: 900;
+}
+footer ul.contact_footer {
+    list-style: none;
+    padding-left: 0px;
+}
+footer ul.contact_footer li {
+    color: #fff;
+    line-height: 35px;
+}
+footer ul.contact_footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer ul.icons {
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
+}
+footer ul.icons li a {
+    color: #fff;
+    font-size: 35px;
+    padding-right: 20px;
+}
+footer ul.products_footer {
+    list-style: none;
+}
+footer ul.products_footer li a {
+    color: #fff;
+    line-height: 30px;
+}
+footer p.copyright {
+    color: #fff;
+    text-align: center;
+    padding-top: 2%;
+    border-top: 1px solid #fff;
+    margin-top: 5%;
+}
+footer .newsletter p.p1 {
+    color: #fff;
+}
+footer .newsletter p.p2 {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    color: #fff;
+}
+footer .newsletter p.p3 {
+    color: #fff;
+}
+
+/* tabs */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ab1e32;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-weight: 900;
+}
+.nav-tabs .nav-link {
+    color: #000000;
+    font-weight: 500;
+}
+.related_products{
+    padding: 3% 0 4% 0;
+}
+.related_products .card img {
+    width: 100%;
+}
+.related_products .card {
+    /* margin: 15px; */
+}
+.related_products h3 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom:2%
+}
+.show_details div#myTabContent p {
+    margin: 5px 0 0 0;
+}
+.related_products .card-body{
+    background-color: #ab1e32;
+    padding: 10px 0;
+    text-align: center;
+}
+.related_products .card-body h5.card-title{
+    color: #fff;
+}
+.related_products .row .col-md-12 a:hover{
+    text-decoration: none;
+}
+.thumbhnail_product {
+    position: sticky;
+    top: 10px;
+}
+.breadcrumb_outer {
+    background: #ab1e32;
+}
+.breadcrumb_outer p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.breadcrumb_outer p a {
+    color: #fff;
+}
+.show_details {
+    padding: 3% 0 3% 0;
+    background-color: #f9f9f9;
+}
+.product_archive_page .card img {
+    width: 100%;
+}
+.product_archive_page .card{
+    margin-bottom: 30px;
+}
+.product_archive_page .card .card-body {
+    background: #ab1e32;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+.product_archive_page {
+    padding: 4% 0 3% 0;
+}
+section.banner_area img.banner_image {
+    width: 100%;
+}
+section.banner_area {
+    position: relative;
+}
+section.banner_area h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+}

@@ -32,3 +32,9 @@ if (window.innerWidth > 992) {
 // end if innerWidth
 }); 
 // DOMContentLoaded  end
+
+
+
+
+
+

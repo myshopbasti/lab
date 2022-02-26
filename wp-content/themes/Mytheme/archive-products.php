@@ -1,23 +1,39 @@
 <?php get_header(); ?>
 
-<div class="container">
+<section class="banner_area">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/third.jpg" alt="Banner" class="banner_image">
+    <h1> Our Products </h1>
+</section>
 
+<div class="product_archive_page">
+    <div class="container">
 
-
-<?php
-
-        while ( have_posts() ) : the_post(); ?>
-
-            <h2><?php the_title(); ?></h2>
-
-            <p><?php the_content(); ?></p>
+            <div class="row">
                 
-            <a href="<?php the_permalink(); ?>">Read More</a>
-                
-            <?php endwhile; ?>
+                    
+                        <?php
 
-	
+                        while ( have_posts() ) : the_post(); ?>
 
+                        <div class="col-md-4">
+
+                            <a href="<?php the_permalink(); ?>">
+                                    <div class="card">
+                                        <?php the_post_thumbnail(); ?>
+                                            <div class="card-body">
+                                                <h5 class="card-title"><?php the_title(); ?></h5>								
+                                        </div>
+                                    </div>
+                            </a>
+                            
+                        </div>
+
+                        <?php endwhile; ?>
+
+
+            </div>
+
+    </div>
 </div>
 
 <?php get_footer(); ?>
