@@ -10,12 +10,12 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<div class="thumbhnail_product">
 					<?php the_post_thumbnail(); ?>
 				</div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-7">
 				<h2><?php the_title(); ?></h2>
 				<p><?php the_field('info_para'); ?></p>
 				<h5>Available Colors</h5>
@@ -56,7 +56,7 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Related <span style="color:#ab1e32;">Products</span></h3>
+					<h3>Related <span style="color:#de261a;">Products</span></h3>
 				</div>
 			</div>
 	

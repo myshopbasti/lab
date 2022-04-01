@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3>About <span style="color:#ab1e32;">A</span>rixson</h3>
+				<h3>About <span style="color:#ed3338;">A</span>rixson</h3>
 				<p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has the industry's standard dummy text ever since the 1500s,</p>
 			</div>
 		</div>
@@ -53,7 +53,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3>Our <span style="color:#ab1e32;">Products</span></h3>
+				<h3>Our <span style="color:#ed3338;">Products</span></h3>
 			</div>
 		</div>
 		<div class="row">

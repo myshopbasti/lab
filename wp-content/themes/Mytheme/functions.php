@@ -96,4 +96,3 @@ function my_first_taxonomy(){
 add_action('init','my_first_taxonomy');
 
 
-// Breadcrumb

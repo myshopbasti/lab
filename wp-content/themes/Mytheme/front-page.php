@@ -53,7 +53,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3>Our <span style="color:#ab1e32;">Products</span></h3>
+				<h3>Our <span style="color:#ed3338;">Products</span></h3>
 			</div>
 		</div>
 		<div class="row">
