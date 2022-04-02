@@ -232,10 +232,22 @@ section.banner_area h1 {
     height: auto;
 }
 .outer_section a .card img {
-    width: 350px;
+    width: 348px;
     height: 300px;
 }
 header {
     box-shadow: 6px 8px 14px 0px rgba(205, 209, 209, 0.58)!important;
     border-bottom: 1px solid #edd9d9;
+}
+.outer_section {
+    padding: 70px 0;
+}
+.outer_section .card-body {
+    background-color: #36393e;
+    text-align: center;
+    color: #fff;
+}
+.outer_section .card-body h5.card-title {
+    font-size: 20px;
+    margin: 0;
 }

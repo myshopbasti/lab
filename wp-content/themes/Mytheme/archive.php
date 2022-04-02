@@ -40,4 +40,3 @@
 
 
 
-<a href="<?php the_permalink(); ?>">Read More</a>
